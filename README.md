@@ -27,3 +27,7 @@ This repository is Shyam's submission for Getting and Cleaning Data course offer
   	- Change activity numbers with activity names.
   	- Labels the data set with descriptive variable names.
   	- Creates a final dataset
+
+<details><summary>Output</summary>
+
+The output is also available [here](output.tsv).

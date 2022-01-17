@@ -62,3 +62,4 @@ names(data) <- gsub("angle", "Angle", names(data))
 # Q5:
 #   From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 final <- data %>% group_by(Subject, Activity) %>% summarise_all(list(mean=mean))
+write.table(final, "final.txt", row.name=FALSE)
